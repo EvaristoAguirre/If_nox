@@ -1,0 +1,33 @@
+.background{
+  background-color: var(--col-IF-Grey-d);
+}
+
+.input-background{
+  background-color: gainsboro;
+}
+
+.contact-title{
+  color:var(--col-IF-Blue-m);
+  font-size: 4rem;
+}
+
+.button-text{
+  color: white;
+}
+
+.contact-button{
+  width: 16rem;
+  background-color: var(--col-IF-Blue-m);
+}
+
+input::placeholder {
+  padding-left: 1.5rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+textarea::placeholder {
+  padding-left: 1.5rem;
+  font-weight: bold;
+  font-size: large;
+}
