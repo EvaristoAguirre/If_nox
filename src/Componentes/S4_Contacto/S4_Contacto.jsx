@@ -4,8 +4,8 @@ import "./S4_Contacto.css";
 const S4_Contacto = () => {
   return (
     <section className="background">
-      <h1 className="fw-bold contact-title text-center">Dejanos asesorarte</h1>
-      <div className="row justify-content-center mt-4">
+      <h1 className="fw-bold contact-title text-center ">Dejanos asesorarte</h1>
+      <div className="d-flex justify-content-center mt-4">
         <div className="text-center col-7">
           <div className="mb-3">
             <input
