@@ -1,0 +1,42 @@
+.question{
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: start;
+}
+
+.dropdown-button{
+  width: 53rem;
+  background-color: var(--col-IF-Blue-m);
+  border-radius: 8px;
+}
+
+.answer{
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  width:53rem;
+  background-color: var(--col-IF-Blue-l);
+  border-radius: 8px;
+  transition: height 2.8s ease;
+  height: 20px;
+}
+
+.arrow-icon{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold !important;
+  text-align: start;
+}
+
+.show-button{
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.hide-button {
+  overflow: hidden;
+  height: 3rem;
+  transition: height 0.3s ease;
+}
